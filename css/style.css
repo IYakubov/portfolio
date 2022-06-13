@@ -16,9 +16,14 @@ body{
     --border-hover:.1rem solid var(--black);
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
+@font-face {
+    font-family: 'Consolas';
+    src: url('../fonts/Consolas.ttf');
+    src: url('../fonts/Consolas.otf');
+}
 
 *{
-    font-family: 'Consolas', sans-serif;
+    font-family: 'Consolas';
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
@@ -762,10 +767,18 @@ section{
     width: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.me{
+    width: 60%; margin-left: 20%; margin-right: 20%; margin-top: 5%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 @media only screen and (max-width: 500px) {
   .gal {
     width: 45%;
     margin: 1px;
+  }
+  .me{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
 }
