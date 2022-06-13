@@ -19,7 +19,7 @@ body{
 @font-face {
     font-family: 'Consolas';
     src: url('../fonts/Consolas.ttf');
-    src: url('../fonts/Consolas.ttf');
+    src: url('../fonts/Consolas.otf');
 }
 
 *{
@@ -773,7 +773,7 @@ section{
 @media only screen and (max-width: 500px) {
   .gal {
     width: 45%;
-    margin: 1px;
+    margin: 5px;
   }
   .me{
     width: 90%;
@@ -799,7 +799,7 @@ section{
 @media only screen and (max-width: 500px) {
   .gals {
     width: 45%;
-    margin: 1px;
+    margin: 5px;
   }
 
 }
