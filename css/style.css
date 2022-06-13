@@ -19,7 +19,7 @@ body{
 @font-face {
     font-family: 'Consolas';
     src: url('../fonts/Consolas.ttf');
-    src: url('../fonts/Consolas.otf');
+    src: url('../fonts/Consolas.ttf');
 }
 
 *{
