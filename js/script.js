@@ -1,4 +1,4 @@
-
+/*
 window.onload = () =>{
 
   fadeOut();
@@ -13,3 +13,4 @@ function fadeOut(){
   setTimeout(loader, 1100);
 }
 
+*/
